@@ -1,6 +1,9 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+create database if not exists mallchat;
+use mallchat;
+
 -- ----------------------------
 -- Table structure for item_config
 -- ----------------------------
